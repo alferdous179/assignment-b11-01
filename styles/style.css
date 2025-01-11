@@ -1,0 +1,79 @@
+/**/
+/*Universal Styles*/
+div {
+    background-color: cornsilk;
+}
+.fira-sans-semibold {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.btn-primary{
+    font-size: 20px;
+    background-color: #006a50;
+    font-weight: 600;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+.btn-nav{
+    font-size: 20px;
+    background-color: white;
+    font-weight: 600;
+    color:#006a50;
+    padding: 15px 30px;
+    border-color: #006a50;
+    border-radius: 5px;
+}
+
+/* Navigation Css */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 50px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    list-style: none;
+}
+nav{
+    display: flex;
+}
+.nav-title{
+    font-weight: 600;
+    font-size: 32px;
+}
+/* Banner */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    background-color: #C6E4D6;
+    margin: 0 200px;
+    padding: 100px 10px;
+    border-radius: 10px;
+}
+.banner-content{
+    max-width: fit-content;
+    background-color: #C6E4D6;
+    margin-left:20px;
+}
+.banner-intro{
+    font-size: 56px;
+}
+.banner-image{
+    max-width: 474px;
+    margin-right: 20px;
+}
+.banner-grt{
+    color: dimgray;
+    font-size: 24px;
+}
